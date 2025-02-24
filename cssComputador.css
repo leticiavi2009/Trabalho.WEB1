@@ -3,10 +3,6 @@
     font-family: sans-serif;
     text-align: center;
     padding: top 5%;
-    
-    
-    
-    
 }
 
 #hardware p{
@@ -16,7 +12,6 @@
     padding-right: 25%;
     margin: auto;
     padding-top:5%
-
 }
 #home{
     color:rgb(0, 0, 0);
@@ -41,14 +36,11 @@ a{
 }
 #navbar-example2{
     background-color: #fff67c;
-    
-
 }
 body{
     font-family:'Source Sans Pro Topnav', sans-serif;
-    background-image: url(fundo.jpg);
-    background-size: cover;
-    
+    background-image: url(imagens/fundo.jpg);
+    background-size: 100%;
 }
 
 #menu1{
@@ -62,7 +54,7 @@ body{
 #menu{
     margin-inline:100px;
     background-color:rgb(89, 167, 230);
-    background-size: 100%;
+    background-size: 150%;
     
 }
 .nav-item{
