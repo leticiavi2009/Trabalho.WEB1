@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "cssComputador.css">
+    <title>Computador dos sonhos</title>
+</head>
+<body >
+    
+    <div id="cadastro1">
+        <h4 id = "titulo1">CADASTRO</h4>
+        <form id="signupForm">
+            <input type="text" id="username" placeholder="Nome de Usuário" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="password" id="senha1" placeholder="Senha" required>
+            <input type="password" id="senha2" placeholder="Confirme a Senha" required>
+            <p class="error" id="errorMessage"></p>
+            <button type="submit" id= "enter" onclick="conf()">Cadastrar</button>
+        </form>
+    </div>
+
+    <script>
+          function conf(){
+            valor1=document.getElementById("senha1").value
+            valor2=document.getElementById("senha2").value
+            if(valor1 == valor2){
+                window.alert("Conta criada com sucesso")
+                window.location.href="index1.html";
+            }
+            else{
+                window.alert("As senhas precisam ser iguais")
+            }
+          }
+              
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+#hardware{
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    padding: top 5%;
+    
+    
+    
+    
+}
+
+#hardware p{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: auto;
+    padding-top:5%
+
+}
+#home{
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 15%;
+}
+a{
+    text-decoration: none;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    margin-inline:90px;
+  }
+
+.index{
+    width: 31.33%;
+}
+.menu2{
+    width: 47%;
+}
+.cadastro_index{
+    width: 12%;
+}
+#navbar-example2{
+    background-color: #fff67c;
+    
+
+}
+body{
+    font-family:'Source Sans Pro Topnav', sans-serif;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    
+}
+
+#menu1{
+    color: antiquewhite;
+    width:300px;
+    
+}
+#cadastro_pagina{
+    text-align: center;
+}
+#menu{
+    margin-inline:100px;
+    background-color:rgb(89, 167, 230);
+    background-size: 100%;
+    
+}
+.nav-item{
+    color:black;
+}
+#formulario_cadastro{
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 23%;
+    height: 500px;
+
+}
+#palavra{
+    color:#000000;
+    margin-inline:70px;
+}
+div#formulario_cadastro_borda {
+    padding-left: 42%;
+    color: aliceblue;
+
+}
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+#cadastro1{
+    padding-left:37%;
+    padding-bottom: 30%;
+    padding-top: 10%;
+    
+}
+#enter{
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #0e0a0a;
+    border-radius: 2px
+
+}
+#titulo1{
+    font-size:30px;
+    padding-left: 20%;
+    color:#000000;
+}
