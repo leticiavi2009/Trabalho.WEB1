@@ -26,9 +26,8 @@
             valor1=document.getElementById("senha1").value;
             valor2=document.getElementById("senha2").value;
             if(valor1 == valor2){
-                window.location.assign("file://wsl.localhost/Ubuntu/home/labcaxias/Emanuelle%20DS102/WEB1/Computador%20dos%20sonhos(trabalho)/index.html");
                 window.alert("Conta criada com sucesso");
-                
+                window.location.href = "index.html";
             }
             else{
                 window.alert("As senhas precisam ser iguais");

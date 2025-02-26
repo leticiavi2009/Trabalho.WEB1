@@ -3,6 +3,7 @@
     font-family: sans-serif;
     text-align: center;
     padding: top 5%;
+    
 }
 
 #hardware p{
@@ -12,7 +13,9 @@
     padding-right: 25%;
     margin: auto;
     padding-top:5%
+
 }
+
 #home{
     color:rgb(0, 0, 0);
     font-family: sans-serif;
@@ -36,12 +39,25 @@ a{
 }
 #navbar-example2{
     background-color: #fff67c;
+    
+
 }
 body{
     font-family:'Source Sans Pro Topnav', sans-serif;
+    background-size: cover;
     background-image: url(imagens/fundo.jpg);
-    background-size: 100%;
+    
 }
+
+#itens{
+    color:rgb(248, 255, 157);
+    padding-top: 10%;
+    size: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: #cbecff;
+  }
 
 #menu1{
     color: antiquewhite;
@@ -52,9 +68,10 @@ body{
     text-align: center;
 }
 #menu{
-    margin-inline:100px;
+    size:70px;
+    margin-inline:80px;
     background-color:rgb(89, 167, 230);
-    background-size: 150%;
+    background-size: 100%;
     
 }
 .nav-item{
@@ -100,4 +117,11 @@ input {
     font-size:30px;
     padding-left: 20%;
     color:#000000;
+}
+
+.conteudo {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
